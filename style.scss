@@ -1,0 +1,71 @@
+%ttl {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.ttl1 {
+  @extend %ttl;
+  color: black;
+}
+
+.ttl1:hover {
+  color: white;
+  background-color: black;
+}
+
+#b1 {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+#b1:hover {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+#pj1 {
+  font-size: 40%;
+  margin-bottom: 0px;
+}
+
+#j1 {
+  margin-top: 0px;
+}
+
+%divmove-base {
+  padding-left: 2%;
+}
+
+.move-alot {
+  @extend %divmove-base;
+}
+
+.move-some {
+  @extend %divmove-base;
+  margin-top: 1%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.col-head {
+  font-weight: bold !important;
+  text-align: center;
+  font-size: 200%;
+}
+
+.trophy-list {
+  text-align: center;
+  list-style-position: inside;
+  font-size: 150%;
+}
+
+.trophy-win {
+  font-weight: bold;
+}
+
+.team-table thead {
+  background-color: black;
+  color: white;
+}

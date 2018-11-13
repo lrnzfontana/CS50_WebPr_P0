@@ -12,6 +12,11 @@
   background-color: black;
 }
 
+@media (max-width: 500px) {
+  .ttl1 {
+    font-size: 50% !important;
+  }
+}
 #b1 {
   background-color: black;
   color: white;
